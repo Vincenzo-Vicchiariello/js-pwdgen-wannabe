@@ -6,3 +6,11 @@
 .maxh200 {
     max-height: 200px
 }
+
+.dblock {
+    display: block;
+}
+
+.btn-red {
+    background-color: red;
+}
