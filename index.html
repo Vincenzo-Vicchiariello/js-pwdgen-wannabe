@@ -13,16 +13,24 @@
 
 <body>
 
-    <div class="container">
+    <div class="container d-flex">
         <div class="row">
-            <div class="col-md-6 col-sm-12 float-none">
-                <img class="img-fluid" src="./img/logo.png" alt="logo">
+            <div
+                class="col-md-12 col-sm-12 position-absolute top-0 start-50 translate-middle w-25 maxh200 mt-5 pt-4 mb-3 sticky-top">
+                <img class="img-fluid " src="./img/logo.png" alt="logo">
             </div>
         </div>
-        <h3 class="text-center cs">Il tuo generatore di password</h3>
+    </div>
+    <div class="container mt-5 d-flex justify-content-center ">
+        <div class="row text-center align-items-end">
+            <div class="col-12 ">
+                <h3 class="cs mt-5 text-center">Il tuo generatore di password</h3>
+            </div>
+            <div class="col-12 ">
+                <button class="cs" onclick="pGen()"> Clicca qui, fidati!</button>
 
-        <button class="text-center cs" onclick="pGen()"> Clicca qui, fidati!</button>
-
+            </div>
+        </div>
         <p id=demo class="text-center cs"> </p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
