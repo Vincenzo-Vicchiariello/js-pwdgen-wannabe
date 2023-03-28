@@ -11,6 +11,10 @@
     display: block;
 }
 
-.btn-red {
+.bg-red {
     background-color: red;
+}
+
+.red {
+    color: red;
 }
